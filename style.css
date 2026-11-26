@@ -2,6 +2,12 @@
                 margin: 0px;
                 padding: 0px;
             }
+             body {
+                margin: 0;
+                min-height: 100vh;
+                /* 1. Apply the ombre effect to the main page background */
+                background: linear-gradient(to bottom, #98a6e7, #b784e9, #f17c8f);
+            }
             #nav_bar{
                 font: 150;
                 background-color: rgb(163, 216, 102);
@@ -17,16 +23,18 @@
             }
             #slider{
                 height: 200px;
-                width: 100px;
-                background-color: rgb(255, 255, 255);
+                /*background-color: rgb(255, 255, 255);*/
             }
             .container{
                 height: 300px;
                 width: 100%;
-                background-color: rgb(76, 73, 250);
+                background-color: rgb(115, 113, 223);
                 display: flex;
                 gap: 50px;
                 padding: 20px;
+                align-items: center;
+                margin: 0 auto;
+                justify-content: center;
             }
             .product{
                 width: 200px;
@@ -36,9 +44,10 @@
                 background-color: antiquewhite;
                 border: 2px solid rgb(36, 4, 4);
                 padding: 20px;
+                align-content: center;
             }
             .product img{
-                width: 150px;
+                width: 200px;
                 height: 200px;
             }
             #login_form {
